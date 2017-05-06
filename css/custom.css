@@ -18,7 +18,7 @@ body {
   padding-top: 5px;
   font-family: Montserrat, Arial, sans-serif;
   font-size: 14px;
-  color: #182259;
+  color: #000;
 }
 body.fluid {
   background: #0e1543 url("../img/background-bands.jpg") repeat-x fixed center top / cover;
@@ -35,9 +35,11 @@ body.fluid {
 
 .main-content .heading {
   line-height: 1;
-  font-size: 35px;
+  font-size: 25px;
+  font-weight: bold;
   margin-top: 15px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* --- HEADER --- */
@@ -215,22 +217,21 @@ body.fluid {
 }
 
 #footer {
-  background-color: #c1e3f0;
+  background-color: #fff;
   margin-top: 20px;
   margin-left: -10px;
   margin-right: -10px;
   padding-bottom: 3px;
   text-align: center;
-
 }
 #footer::before {
   content: " ";
   display: block;
   width: 100%;
-  background: #d7eef4 url("../img/footer/waves.svg") no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding-top: 14.16%;
+  height: 30px;
+  background: transparent url("../img/footer/xnlfestival.png") repeat-x;
+  background-size: contain;
+  margin-bottom: 10px;
 }
 #footer img,
 #footer a {
@@ -241,16 +242,16 @@ body.fluid {
 }
 #footer .leto {
   display: inline-block;
-  max-width: 128px;
+  max-width: 54px;
   margin-left: 10px;
 }
 #footer .crows {
   display: inline-block;
-  max-width: 75px;
+  max-width: 150px;
 }
-#footer .emiliaromagna {
+#footer .fondazione {
   display: inline-block;
-  max-width: 260px;
+  max-width: 110px;
 }
 #footer .sponsors .sp:first-child {
   max-width: 110px;
@@ -276,7 +277,6 @@ body.fluid {
   margin-bottom: 20px;
 }
 .home-links .link {
-  font-family: big-noodle, Arial, sans-serif;
   line-height: 1;
   display: block;
   position: relative;
@@ -307,20 +307,21 @@ body.fluid {
   margin-top: 35px;
 }
 .news-container .news .title {
-  font-family: big-noodle, Arial, sans-serif;
   line-height: 1;
-  font-size: 28px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .news-container .news .date {
-  font-family: big-noodle, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
+  font-weight: bold;
 }
 .news-container .news .content {
   text-align: justify;
   margin-top: 5px;
 }
 .news-container .news a {
-  color: #182259;
+  color: #000;
   text-decoration: underline;
 }
 .news-container .news .content ul {
@@ -335,7 +336,6 @@ body.fluid {
   border-radius: 20px;
 }
 .news-container .news .content h3 {
-  font-family: big-noodle, Arial, sans-serif;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 3px;
@@ -372,12 +372,10 @@ body.fluid {
   text-align: left;
 }
 .festival-container h2 {
-  font-family: big-noodle, Arial, sans-serif;
   font-size: 28px;
   text-align: center;
 }
 .festival-container h3 {
-  font-family: big-noodle, Arial, sans-serif;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 3px;
